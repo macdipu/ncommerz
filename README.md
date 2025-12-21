@@ -1,59 +1,389 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# NCommerz E-commerce Platform
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">
 </p>
 
-## About Laravel
+<p align="center">
+<a href="https://github.com/alimworkzone/ncommerz"><img src="https://img.shields.io/github/stars/alimworkzone/ncommerz" alt="GitHub Stars"></a>
+<a href="https://github.com/alimworkzone/ncommerz/releases"><img src="https://img.shields.io/github/v/release/alimworkzone/ncommerz" alt="Latest Release"></a>
+<a href="https://github.com/alimworkzone/ncommerz/blob/main/LICENSE"><img src="https://img.shields.io/github/license/alimworkzone/ncommerz" alt="License"></a>
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## About NCommerz
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+NCommerz is a modern, full-featured e-commerce platform built with Laravel and React. It provides everything you need to start your online business with a professional, responsive design and powerful admin panel.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### ✨ Key Features
 
-## Learning Laravel
+- 🛍️ **Complete E-commerce Solution** - Product catalog, shopping cart, order management
+- 📱 **Responsive Design** - Works perfectly on desktop, tablet, and mobile
+- 🎨 **Modern UI/UX** - Built with React and Tailwind CSS
+- 👨‍💼 **Powerful Admin Panel** - Manage products, orders, customers, and settings
+- 📊 **Sales Analytics** - Real-time dashboard with charts and statistics
+- 🖼️ **Image Management** - Easy upload and management of product images
+- 📧 **Order Tracking** - Customer order tracking system
+- 💳 **Multiple Payment Methods** - Cash on Delivery, bKash, Nagad
+- 🏷️ **Category Management** - Organize products with categories
+- ⚙️ **Dynamic Settings** - Configure store settings from admin panel
+- 📱 **WhatsApp Integration** - Direct customer communication
+- 🧾 **Invoice System** - Generate and manage invoices
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+---
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 🚀 Quick Installation Guide
 
-## Laravel Sponsors
+### Recommended Hosting Providers
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+For the best experience, we recommend **Hostinger** - reliable, fast, and affordable hosting:
 
-### Premium Partners
+**🎯 [Get Hostinger Hosting (Special Discount)](https://hostinger.com?REFERRALCODE=alimbd1234)**
+- ✅ **Shared Hosting**: Starting from $1.99/month
+- ✅ **VPS Hosting**: Starting from $3.99/month  
+- ✅ **Free SSL Certificate**
+- ✅ **24/7 Support**
+- ✅ **99.9% Uptime Guarantee**
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+---
 
-## Contributing
+## 📋 Requirements
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- **PHP**: 8.1 or higher
+- **MySQL**: 5.7 or higher
+- **Node.js**: 16.x or higher
+- **Composer**: Latest version
+- **Web Server**: Apache/Nginx
 
-## Code of Conduct
+---
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## 🔧 Installation Methods
 
-## Security Vulnerabilities
+### Method 1: Shared Hosting Installation
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+#### Step 1: Download & Upload
+```bash
+# Download the project
+git clone https://github.com/alimworkzone/ncommerz.git
+cd ncommerz
 
-## License
+# Or download ZIP from GitHub and extract
+```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+#### Step 2: Upload to Hosting
+1. **Upload files** to your hosting's `public_html` folder
+2. **Move public folder contents** to `public_html` root
+3. **Update paths** in `public_html/index.php`:
+   ```php
+   require __DIR__.'/bootstrap/app.php';
+   ```
+
+#### Step 3: Database Setup
+1. **Create MySQL database** in cPanel/hosting panel
+2. **Import database** (if you have a backup)
+3. **Configure `.env` file**:
+   ```env
+   DB_CONNECTION=mysql
+   DB_HOST=localhost
+   DB_PORT=3306
+   DB_DATABASE=your_database_name
+   DB_USERNAME=your_username
+   DB_PASSWORD=your_password
+   ```
+
+#### Step 4: Install Dependencies
+```bash
+# Install PHP dependencies
+composer install --optimize-autoloader --no-dev
+
+# Install Node.js dependencies
+npm install
+
+# Build assets
+npm run build
+```
+
+#### Step 5: Configure Application
+```bash
+# Generate application key
+php artisan key:generate
+
+# Run migrations
+php artisan migrate
+
+# Seed database (optional)
+php artisan db:seed
+
+# Create storage link
+php artisan storage:link
+
+# Clear cache
+php artisan config:cache
+php artisan route:cache
+php artisan view:cache
+```
+
+---
+
+### Method 2: VPS Installation (Ubuntu/CentOS)
+
+#### Step 1: Server Setup
+```bash
+# Update system
+sudo apt update && sudo apt upgrade -y
+
+# Install required packages
+sudo apt install nginx mysql-server php8.1-fpm php8.1-mysql php8.1-xml php8.1-gd php8.1-curl php8.1-zip php8.1-mbstring unzip curl -y
+
+# Install Node.js
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+# Install Composer
+curl -sS https://getcomposer.org/installer | php
+sudo mv composer.phar /usr/local/bin/composer
+```
+
+#### Step 2: Clone Project
+```bash
+# Clone to web directory
+cd /var/www
+sudo git clone https://github.com/alimworkzone/ncommerz.git
+sudo chown -R www-data:www-data ncommerz
+cd ncommerz
+```
+
+#### Step 3: Install Dependencies
+```bash
+# Install PHP dependencies
+composer install --optimize-autoloader --no-dev
+
+# Install Node dependencies
+npm install
+
+# Build production assets
+npm run build
+```
+
+#### Step 4: Database Configuration
+```bash
+# Create database
+sudo mysql -u root -p
+CREATE DATABASE ncommerz;
+CREATE USER 'ncommerz_user'@'localhost' IDENTIFIED BY 'strong_password';
+GRANT ALL PRIVILEGES ON ncommerz.* TO 'ncommerz_user'@'localhost';
+FLUSH PRIVILEGES;
+EXIT;
+```
+
+#### Step 5: Environment Setup
+```bash
+# Copy environment file
+cp .env.example .env
+
+# Edit configuration
+nano .env
+```
+
+Update these values in `.env`:
+```env
+APP_NAME="Your Store Name"
+APP_URL=https://yourdomain.com
+
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=ncommerz
+DB_USERNAME=ncommerz_user
+DB_PASSWORD=strong_password
+```
+
+#### Step 6: Application Setup
+```bash
+# Generate key
+php artisan key:generate
+
+# Run migrations
+php artisan migrate
+
+# Seed database
+php artisan db:seed
+
+# Create storage link
+php artisan storage:link
+
+# Set permissions
+sudo chown -R www-data:www-data storage bootstrap/cache
+sudo chmod -R 775 storage bootstrap/cache
+```
+
+#### Step 7: Nginx Configuration
+```bash
+# Create Nginx config
+sudo nano /etc/nginx/sites-available/ncommerz
+```
+
+Add this configuration:
+```nginx
+server {
+    listen 80;
+    server_name yourdomain.com www.yourdomain.com;
+    root /var/www/ncommerz/public;
+    index index.php index.html;
+
+    location / {
+        try_files $uri $uri/ /index.php?$query_string;
+    }
+
+    location ~ \.php$ {
+        fastcgi_pass unix:/var/run/php/php8.1-fpm.sock;
+        fastcgi_index index.php;
+        fastcgi_param SCRIPT_FILENAME $realpath_root$fastcgi_script_name;
+        include fastcgi_params;
+    }
+
+    location ~ /\.ht {
+        deny all;
+    }
+}
+```
+
+```bash
+# Enable site
+sudo ln -s /etc/nginx/sites-available/ncommerz /etc/nginx/sites-enabled/
+sudo nginx -t
+sudo systemctl reload nginx
+```
+
+---
+
+## 🔐 Default Login Credentials
+
+After installation, use these credentials:
+
+**Admin Panel**: `yourdomain.com/admin`
+- **Email**: `admin@ncommerz.com`
+- **Password**: `password`
+
+**Customer Account**:
+- **Email**: `customer@ncommerz.com`
+- **Password**: `password`
+
+> ⚠️ **Important**: Change these passwords immediately after first login!
+
+---
+
+## ⚙️ Configuration
+
+### Admin Settings
+1. Go to **Admin Panel** → **Settings**
+2. Configure:
+   - Store name and description
+   - Logo upload
+   - Support phone and email
+   - Payment methods (bKash, Nagad)
+   - Delivery charges
+
+### Payment Setup
+- **Cash on Delivery**: Enabled by default
+- **bKash**: Add merchant number and instructions
+- **Nagad**: Add merchant number and instructions
+
+---
+
+## 📱 Features Overview
+
+### Customer Features
+- Browse products by categories
+- Product search and filtering
+- Shopping cart functionality
+- Order placement and tracking
+- WhatsApp support integration
+- Responsive mobile design
+
+### Admin Features
+- Dashboard with sales analytics
+- Product management (CRUD)
+- Category management
+- Order management and status updates
+- Customer management
+- Invoice generation
+- Settings configuration
+- Image upload and management
+
+---
+
+## 🛠️ Troubleshooting
+
+### Common Issues
+
+**1. Permission Errors**
+```bash
+sudo chown -R www-data:www-data storage bootstrap/cache
+sudo chmod -R 775 storage bootstrap/cache
+```
+
+**2. Storage Link Issues**
+```bash
+php artisan storage:link
+```
+
+**3. Cache Issues**
+```bash
+php artisan config:clear
+php artisan cache:clear
+php artisan view:clear
+```
+
+**4. Database Connection**
+- Check `.env` database credentials
+- Ensure MySQL service is running
+- Verify database exists
+
+---
+
+## 🔄 Updates
+
+To update NCommerz:
+
+```bash
+# Backup your database first!
+git pull origin main
+composer install --optimize-autoloader --no-dev
+npm install && npm run build
+php artisan migrate
+php artisan config:cache
+```
+
+---
+
+## 📞 Support
+
+- **GitHub Issues**: [Report bugs](https://github.com/alimworkzone/ncommerz/issues)
+- **Documentation**: [Wiki](https://github.com/alimworkzone/ncommerz/wiki)
+- **Developer**: Abdul Alim
+
+---
+
+## 📄 License
+
+NCommerz is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+---
+
+## 👨‍💻 Developer
+
+**Abdul Alim**
+- GitHub: [@alimworkzone](https://github.com/alimworkzone)
+- Project: [NCommerz](https://github.com/alimworkzone/ncommerz)
+
+---
+
+## 🌟 Show Your Support
+
+If you find NCommerz helpful, please give it a ⭐ on GitHub!
+
+**[⭐ Star this repository](https://github.com/alimworkzone/ncommerz)**
+
+---
+
+*Built with ❤️ using Laravel & React*
