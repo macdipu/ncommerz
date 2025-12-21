@@ -10,6 +10,14 @@
 
 NCommerz is a modern, full-featured e-commerce platform built with Laravel and React. It provides everything you need to start your online business with a professional, responsive design and powerful admin panel.
 
+## 📸 Screenshots
+
+### Frontend - Customer View
+![NCommerz Homepage](https://raw.githubusercontent.com/alimworkzone/ncommerz/main/screencapture-localhost-8000-2025-12-22-03_34_54.png)
+
+### Admin Panel - Dashboard
+![NCommerz Admin Dashboard](https://raw.githubusercontent.com/alimworkzone/ncommerz/main/screencapture-localhost-8000-admin-2025-12-22-03_35_11.png)
+
 ### ✨ Key Features
 
 - 🛍️ **Complete E-commerce Solution** - Product catalog, shopping cart, order management
