@@ -1,10 +1,6 @@
 # NCommerz E-commerce Platform
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">
-</p>
-
-<p align="center">
 <a href="https://github.com/alimworkzone/ncommerz"><img src="https://img.shields.io/github/stars/alimworkzone/ncommerz" alt="GitHub Stars"></a>
 <a href="https://github.com/alimworkzone/ncommerz/releases"><img src="https://img.shields.io/github/v/release/alimworkzone/ncommerz" alt="Latest Release"></a>
 <a href="https://github.com/alimworkzone/ncommerz/blob/main/LICENSE"><img src="https://img.shields.io/github/license/alimworkzone/ncommerz" alt="License"></a>
@@ -28,6 +24,7 @@ NCommerz is a modern, full-featured e-commerce platform built with Laravel and R
 - ⚙️ **Dynamic Settings** - Configure store settings from admin panel
 - 📱 **WhatsApp Integration** - Direct customer communication
 - 🧾 **Invoice System** - Generate and manage invoices
+- 🔌 **Built-in n8n API Integration** - Seamless workflow automation and third-party integrations
 
 ---
 
